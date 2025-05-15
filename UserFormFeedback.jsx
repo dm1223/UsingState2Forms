@@ -16,8 +16,10 @@ function UserForm() {
   }));
  };
 
+
+ 
  return (
-  <div style={{ textAlign: "center", marginTop: "50px" }}>
+  <div style={{ textAlign: "center", marginTop: "auto" }}>
     <h1>User Form</h1>
     <form>
       <label>
@@ -31,6 +33,7 @@ function UserForm() {
       </label>
       <br />
       <label>
+      
       
       Email:
         <input
